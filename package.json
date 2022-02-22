@@ -1,0 +1,23 @@
+{
+  "name": "module_9_challenge",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README, copied below](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarlinj/Challenge_9_Professional_README_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarlinj/Challenge_9_Professional_README_Generator/issues"
+  },
+  "homepage": "https://github.com/scarlinj/Challenge_9_Professional_README_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
