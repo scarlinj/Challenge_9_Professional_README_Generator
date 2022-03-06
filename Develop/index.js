@@ -14,7 +14,70 @@ function init() {
             type: 'input',
             name: 'title',
             message: 'What do you want to call this app?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an app name.');
+                    return false;
+                }
+            }
+        })
+        .then((answers) => {
+            var X = genMark(answers)
+            console.log(X);
+            console.log(answers);
+        })
+        .catch((banana) => {
+            console.log(banana);
+        });
+    inq.prompt({
+            type: 'input',
+            name: 'title',
+            message: 'Enter a description of this app.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an app name.');
+                    return false;
+                }
+            }
+        })
+        .then((answers) => {
+            var X = genMark(answers)
+            console.log(X);
+            console.log(answers);
+        })
+        .catch((banana) => {
+            console.log(banana);
+        });
 
+    inq.prompt({
+        type: 'input',
+        name: 'title',
+        message: 'Enter instrucitons on how to install the app.',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter an app name.');
+                return false;
+            }
+        }
+    });
+    inq.prompt({
+            type: 'input',
+            name: 'title',
+            message: 'Who contributed to developing this app?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an app name.');
+                    return false;
+                }
+            }
         })
         .then((answers) => {
             var X = genMark(answers)
