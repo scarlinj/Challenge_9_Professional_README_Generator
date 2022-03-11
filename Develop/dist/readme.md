@@ -1,32 +1,7 @@
-const fs = require('fs');
-const answers = require('../index.js')
-
-
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-const badges = require('./licensebadges.js')
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  `./licensebadges.js`
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  `./licensebadges.js`
-}
-
-// TODO: Create a function to generate Readme for README
-
-const generateReadme = (answers) => {
-
-
-  return (`   # ${answers.title}
+   # sfda
   ## Description
 
-${answers.description}
+asdfds
 
 # Table of Contents (Optional)
 
@@ -43,18 +18,18 @@ ${answers.description}
 
 ## Installation <a name="installation"></a>
 
-${answers.instructions}
+afsdfda
 
 <a name="usage"></a>
 ## Usage
 
 Provide instructions and examples for use.
-${answers.usage}
+sdafsa
 <a name="credits"></a>
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
-${answers.contribution}
+sdafdsa
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
@@ -90,9 +65,4 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-  `
-
-  )
-}
-
-module.exports = generateReadme;
+  
