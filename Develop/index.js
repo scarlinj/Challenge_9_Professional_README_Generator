@@ -62,7 +62,43 @@ const promptUser = () => {
                     return false;
                 }
             }
-        }
+        },
+        {
+            type: 'input',
+            name: 'tutorials',
+            message: 'Did you follow any tutorials? Include links or names here.',
+        },
+        {
+            type: 'input',
+            name: 'features',
+            message: 'If your project has a lot of features, list them here.',
+        },
+        {
+            type: 'input',
+            name: 'contribution',
+            message: 'Who contributed to developing this app?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an app name.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Provide examples of tests here.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an app name.');
+                    return false;
+                }
+            }
+        },
     ])
     // .then(answers => {
 
