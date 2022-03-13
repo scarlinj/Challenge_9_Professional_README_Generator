@@ -43,7 +43,7 @@ ${answers.description}
 
 ## Installation <a name="installation"></a>
 
-${answers.instructions}
+${answers.installation}
 
 <a name="usage"></a>
 ## Usage
@@ -85,16 +85,20 @@ ${answers.features}
 
 [Contribute](#contribute)
 ## How to Contribute
+${answers.contribute}
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-${answers.contribution}
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 [Tests](#tests)
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 ${answers.tests}
-  `
+
+[Questions](#questions)
+If you have additional questions, please contact the developer at ${answers.github}.
+`
 
   )
 }

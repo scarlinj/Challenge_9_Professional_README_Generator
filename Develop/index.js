@@ -27,20 +27,20 @@ const promptUser = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter an app name.');
+                    console.log('Please enter an app description.');
                     return false;
                 }
             }
         }, {
             type: 'input',
-            name: 'instructions',
+            name: 'installation',
             message: 'Enter instructions on how to install the app.',
             default: 'npm install'
 
         }, {
             type: 'input',
             name: 'usage',
-            message: 'Provide instructions and examples for use. Include screenshots as needed.',
+            message: 'Provide information for how to use this app.',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
@@ -58,7 +58,7 @@ const promptUser = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter an app name.');
+                    console.log('Please enter an any contributors, or type "None".');
                     return false;
                 }
             }
@@ -67,21 +67,24 @@ const promptUser = () => {
             type: 'input',
             name: 'tutorials',
             message: 'Did you follow any tutorials? Include links or names here.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an any contributors, or type "None".');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
             name: 'features',
             message: 'If your project has a lot of features, list them here.',
-        },
-        {
-            type: 'input',
-            name: 'contribution',
-            message: 'Who contributed to developing this app?',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter an app name.');
+                    console.log('Please enter an any contributors, or type "None".');
                     return false;
                 }
             }
@@ -95,6 +98,32 @@ const promptUser = () => {
                     return true;
                 } else {
                     console.log('Please enter an app name.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your GitHub username? For users to see your other works.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter a username.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your e-mail? For users to contact you with questions or if they would like to contribute.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an e-mail.');
                     return false;
                 }
             }
