@@ -1,6 +1,6 @@
 # Professional README Generator
 
-[How to create a Professional README, copied below](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+[What to includ in a professional README file](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 ## Description
 
