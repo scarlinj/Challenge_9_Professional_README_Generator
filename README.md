@@ -18,22 +18,17 @@ Clicking on the links in the Table of Contents takes you to the corresponding se
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Badges](#badges)
 - [Features](#features)
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Video Walkthrough Demonstration](#walkthrough)
 
+- [Credits](#credits)
+
+
 ## Installation <a name="installation"></a>
 
 If you would like to use this program, download this repository.  After downloading, open the app through a Javascript reader - in the attached video I walk through using Node.js.  From the Node.js terminal, run the program by typing "Node index.js".  From here you will answer a series of questions and prompts to fill out the information in your ReadMe.md file.
-
-<a name="credits"></a>
-## Credits
-
-This project was developed as part of a Web Development program through UC Berkeley.
 
 
 ---
@@ -65,3 +60,9 @@ If you would like to contribute to this project, feel free to contact me through
 
 [Questions](#questions)
 If you have additional questions, please contact the developer at scarlinj@gmail.com.
+
+
+<a name="credits"></a>
+## Credits
+
+This project was developed as part of a Web Development program through UC Berkeley.
