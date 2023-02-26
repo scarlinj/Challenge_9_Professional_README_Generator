@@ -22,7 +22,8 @@ Clicking on the links in the Table of Contents takes you to the corresponding se
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Video Walkthrough Demonstration](#walkthrough)
-
+- [Contribute](#contribute)
+- [Questions](#questions)
 - [Credits](#credits)
 
 
@@ -49,7 +50,6 @@ Because you need a JavaScript reader to use this program, I provided a walkthrou
 
 https://drive.google.com/file/d/1lQMeHiZak5NgvFHEV8PJTJY7vXFC4wJm/view
 
-[Contribute](#contribute)
 ## How to Contribute
 
 If you would like to contribute to this project, feel free to contact me through GitHub.
@@ -58,11 +58,8 @@ If you would like to contribute to this project, feel free to contact me through
 
 ## Questions
 
-[Questions](#questions)
 If you have additional questions, please contact the developer at scarlinj@gmail.com.
 
-
-<a name="credits"></a>
 ## Credits
 
 This project was developed as part of a Web Development program through UC Berkeley.
