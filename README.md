@@ -4,7 +4,7 @@
 
 ## Description
 
-Welcome to the ReadMe Generator!  This is a command-line application that accepts user input when prompted for information about their application repository.  At the end of the series of primpts, a high-quality, professional README.md is generated with the title of their project and sections ( Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions).
+Welcome to the ReadMe Generator!  This is a command-line application that runs locally and accepts user input when prompted for information about an application repository.  At the end of the series of prompts, a high-quality, professional README.md is generated with the title of the project and different sections ( Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions).
 
 When you enter the project title, this is displayed as the title of the README.md.  After entering a description, installation instructions, usage information, contribution guidelines, and test instructions, this is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.  You can then choose a license for my application from a list of options and a badge for that license is added near the top of the README and a notice is added to the section of the README entitled "License" that explains which license the application is covered under.
 
